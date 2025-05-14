@@ -2,6 +2,8 @@
 /* Desktop 1250~1920 */
 /* Tablet 1249~850 */
 @media screen and (max-width:1249px) {
+    #wrap .intro {padding:0 80px;}
+    #wrap .intro .container {width:100%;}
     #wrap .intro .container h1:nth-child(2) {
         font-size:3.125rem; font-weight:700;
     }
@@ -9,12 +11,13 @@
         width:270px; line-height:62px;
         font-size:1.375rem;
     }
-    #wrap .intro .container .sponsor_question {
+    #wrap .intro .container .sponsor_question { width:333px;
         width:333px; height:54px; line-height:1.7; font-size:1.25rem;
     }
 }
 /* Mobile 849~320 */
 @media screen and (max-width:849px) {
+    #wrap .intro {padding:0 15px;}
     #wrap .intro .container h1:first-child a img {
         width:40px;
     }
