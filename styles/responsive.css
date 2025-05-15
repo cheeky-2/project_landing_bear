@@ -2,6 +2,7 @@
 /* Desktop 1250~1920 */
 /* Tablet 1249~850 */
 @media screen and (max-width:1249px) {
+    /* ========================1행 intro */
     #wrap .intro {padding:0 80px;}
     #wrap .intro .container {width:100%;}
     #wrap .intro .container h1:nth-child(2) {
@@ -14,6 +15,10 @@
     #wrap .intro .container .sponsor_question { width:333px;
         width:333px; height:54px; line-height:1.7; font-size:1.25rem;
     }
+    /* ========================2행 quiz */
+    #wrap .quiz {padding:150px 80px;}
+    /* ==================3행 video */
+    #wrap .ad {padding:200px 80px;}
 }
 /* Mobile 849~320 */
 @media screen and (max-width:849px) {
@@ -23,4 +28,18 @@
     }
     #wrap .intro .container h1:nth-child(2) {font-size:1.875rem;}
     #wrap .intro .container .sponsor_question {float:none; display:block; margin:0 auto;}
+    /* ==========================2행 quiz */
+    #wrap .quiz {padding:70px 15px;}
+    /* #wrap .quiz .container #left_quiz {grid-area:left;}
+    #wrap .quiz .container .right {grid-area:right;}
+    #wrap .quiz .container {grid-template-areas:
+            'left'
+            'right';
+        } */
+    #wrap .quiz .container {grid-template-columns:1fr;}
+    #wrap .quiz .container .right p:nth-child(1) img {width:80%;}
+    #wrap .quiz .container .right {text-align:center;}
+    /* 3행 */
+    #wrap .ad .container iframe {height:400px;}
+    #wrap .ad {padding:50px 15px;}
 }
