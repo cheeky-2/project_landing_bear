@@ -19,6 +19,8 @@
     #wrap .quiz {padding:150px 80px;}
     /* ==================3행 video */
     #wrap .ad {padding:200px 80px;}
+    #wrap .ad .container h2 {font-size:2.5rem;}
+    #wrap .ad .container .sponsor_btn {width:270px; line-height:62px; font-size:1.375rem;}
 }
 /* Mobile 849~320 */
 @media screen and (max-width:849px) {
